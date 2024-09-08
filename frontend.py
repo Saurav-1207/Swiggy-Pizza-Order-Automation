@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Initialize the Generative AI model
-API_KEY = "AIzaSyB-gv4zIQL_vNu0kr6leyuPDyzSA-jTx4s"  # Replace with your actual API key
+API_KEY = "YOUR_API_KEY"  # Replace with your actual API key
 model = configure_genai(API_KEY)  # Model initialized here
 
 # Title with emoji and clean design
