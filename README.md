@@ -1,3 +1,7 @@
+Here's the updated README including the additional step for setting the execution policy in PowerShell:
+
+---
+
 # Swiggy Pizza Order Automation Tool
 
 This project is a web-based tool designed to automatically generate detailed test cases for ordering pizza from the Swiggy app. Utilizing Google Generative AI and a single-shot approach, this tool processes screenshots and optional context to provide a structured, step-by-step guide for testing various pizza ordering functionalities.
@@ -46,20 +50,40 @@ The **Swiggy Pizza Order Automation Tool** leverages a Language Learning Model (
 
 ### Installation
 
-1. **Clone the Repository**
+1. **Set Execution Policy** (Windows PowerShell only)
+   ```powershell
+   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+   ```
+
+2. **Create a Virtual Environment**
+   ```bash
+   python -m venv myenv
+   ```
+
+3. **Activate the Virtual Environment**
+   - On Windows:
+     ```bash
+     myenv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source myenv/bin/activate
+     ```
+
+4. **Clone the Repository**
    ```bash
    git clone https://github.com/Saurav-1207/Swiggy-Pizza-Order-Automation.git
    ```
 
-2. **Install Required Packages**
+5. **Install Required Packages**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set Up Google Generative AI Key**
-   - Replace "YOUR_API_KEY" in the code with your actual API key or set it as an environment variable.
+6. **Set Up Google Generative AI Key**
+   - Replace `"YOUR_API_KEY"` in the code with your actual API key or set it as an environment variable.
 
-4. **Run the Application**
+7. **Run the Application**
    ```bash
    streamlit run frontend.py
    ```
