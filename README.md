@@ -48,7 +48,7 @@ The **Swiggy Pizza Order Automation Tool** leverages a Language Learning Model (
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YourUsername/Swiggy-Pizza-Order-Automation-Tool.git
+   git clone https://github.com/Saurav-1207/Swiggy-Pizza-Order-Automation.git
    ```
 
 2. **Install Required Packages**
@@ -61,7 +61,7 @@ The **Swiggy Pizza Order Automation Tool** leverages a Language Learning Model (
 
 4. **Run the Application**
    ```bash
-   streamlit run main.py
+   streamlit run frontend.py
    ```
 
 ## Contributing
