@@ -1,3 +1,5 @@
+![alt text](https://github.com/Saurav-1207/Swiggy-Pizza-Order-Automation/blob/a1bbce4314e5b29103fedd29f264cdd938b148e0/Capture.PNG))
+
 # Swiggy Pizza Order Automation Tool
 
 This project is a web-based tool designed to automatically generate detailed test cases for ordering pizza from the Swiggy app. Utilizing Google Generative AI and a multimodal approach, this tool processes screenshots and optional context to provide a structured, step-by-step guide for testing various pizza ordering functionalities.
