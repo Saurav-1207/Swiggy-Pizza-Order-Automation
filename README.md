@@ -1,4 +1,4 @@
-![alt text](https://github.com/Saurav-1207/Swiggy-Pizza-Order-Automation/blob/a1bbce4314e5b29103fedd29f264cdd938b148e0/Capture.PNG))
+![alt text](https://github.com/Saurav-1207/Swiggy-Pizza-Order-Automation/blob/a1bbce4314e5b29103fedd29f264cdd938b148e0/Capture.PNG)
 
 # Swiggy Pizza Order Automation Tool
 
